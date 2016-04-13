@@ -42,5 +42,7 @@ int main(){
 
 	cout << "Your Basal Metabolic Rate is:" << result << endl;
 
-return 0;
+  cout << "Press enter to continue\n";
+  cin.get(); // keeps the program open until user presses a key 
+  return 0;
 }
