@@ -81,9 +81,9 @@ int main(){
 		for (n = 0; n < size; ++n) {
 			if (i == 0 || i == (size - 1))
 				line += "*";
-			else if (n == 0 || n == (size - 1))
+			else if (n == 0 || n == (size - 1)) // Else if is another conditional
 				line += "*";
-			else
+			else // Else is also another conditional. This means "everything else" 
 				line += " ";
 		}
 		cout << line << endl;
