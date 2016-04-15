@@ -56,7 +56,7 @@ int main(){
 
 	fout << endl << endl << "Your Check:" << endl << endl; // output to file
 
-	write_check(date, name, dollars, cents, payee);
+	//write_check(date, name, dollars, cents, payee);
 
 return 0;
 }
