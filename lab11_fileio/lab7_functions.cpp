@@ -9,6 +9,11 @@
 
 void write_check(string date, string name, string dollars, string cents, string payee){
 
+// Declare an input file stream with whatever name you choose in your main program (I like fin )
+// and an output file stream (fout here) as follows:
+ifstream fin; // input stream
+ofstream fout; // output stream
+
 	string line1 = name,
 		line2 = "Pay to: " + payee,
 		line3 = dollars + " and " + cents + "/100";

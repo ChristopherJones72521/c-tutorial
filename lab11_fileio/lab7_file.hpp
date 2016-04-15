@@ -23,8 +23,8 @@ using namespace std;
 // Declare an input file stream with whatever name you choose in your main program (I like fin )
 // and an output file stream (fout here) as follows:
 
-ifstream fin; // input stream
-ofstream fout; // output stream
+// ifstream fin; // input stream
+// ofstream fout; // output stream
 
 // function prototypes defined here (why am I using pointers?)
 // I think it's because we want to alter the contents of that value?

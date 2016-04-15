@@ -15,6 +15,11 @@ int main(){
 	// int dollars = atoi(str_dollars.c_str()); // atoi converts a string into an integer
 	// int cents = atoi(str_cents.c_str()); 
 
+  // Declare an input file stream with whatever name you choose in your main program (I like fin )
+  // and an output file stream (fout here) as follows:
+  ifstream fin; // input stream
+  ofstream fout; // output stream
+
 	// opening database.txt
 	fin.open("database.txt"); // fin (file in) is from the fstream header file and works like cin only it works on a file
 	if (fin.fail()) // if the file is unable to open, we need to tell the user what is going on
