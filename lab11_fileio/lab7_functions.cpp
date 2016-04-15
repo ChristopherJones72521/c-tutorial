@@ -7,20 +7,20 @@
 
 #include "lab7_file.hpp"
 
-void write_check(string date, string name, int* dollars, int* cents, string payee){
+void write_check(string date, string name, string dollars, string cents, string payee){
 
-	int length_of_longest_string = 0;
 	string line1 = name,
 		line2 = "Pay to: " + payee,
-		line3 = number_spell(dollars) + " and " + cents + "/100";
+		line3 = dollars + " and " + cents + "/100";
 
   fout << line1 << "\t\t" << date << endl
 		<< line2 << "\t\t$" << dollars << '.' << cents << endl
 		<< line3 << "\t\t" << "dollars" << endl;
 }
 
+/*
 // Number Spell Function
-string number_spell(int* number)
+string number_spell(int number)
 {
 	string tens, singles, output[2];
 
@@ -173,4 +173,4 @@ string number_spell(int* number)
 			}
 
 	}
-}
+}*/

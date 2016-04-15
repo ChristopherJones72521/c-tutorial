@@ -6,8 +6,8 @@
 
 // protects against multiple inclusion
 
-#ifndef FILE_H
-#define FILE_H
+#ifndef LAB7_FILE_H
+#define LAB7_FILE_H
 
 // more inclusions
 
@@ -28,7 +28,7 @@ ofstream fout; // output stream
 
 // function prototypes defined here (why am I using pointers?)
 // I think it's because we want to alter the contents of that value?
-void write_check(string date, string name, int* dollars, int* cents, string payee);
-string number_spell(int* number);
+void write_check(string date, string name, string dollars, string cents, string payee);
+string number_spell(int number);
 
 #endif
